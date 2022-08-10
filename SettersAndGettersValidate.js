@@ -27,6 +27,6 @@ class Person {
 }
 
 const jessica = new Person('Jessica Dave', 1991);
-console.log(jessica);
+// const walter = new Person('Walter White', 1991);
 
-const walter = new Person('Walter White', 1991);
+console.log(jessica.calcAge());
